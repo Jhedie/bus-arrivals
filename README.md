@@ -10,7 +10,7 @@ This project aims to provide real-time bus arrival information.
 
 - Real-time bus arrival times
 - Search by bus stop
-- User-friendly interface :smiley:
+- User-friendly interface 👀
 
 ## Requirements
 
