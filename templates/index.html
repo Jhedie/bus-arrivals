@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Arrivals</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bus Arrivals</h1>
+    </header>
+    <main>
+      <section id="arrivals-section">
+        <h2>Nearest bus stop</h2>
+        <form id="arrivalsEntryForm">
+          <label for="location">Post code:</label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            required
+            value="CR0 1GQ"
+            placeholder="Enter postcode"
+          />
+          <button type="submit">Proceed</button>
+        </form>
+        <p id="message2"></p>
+      </section>
+      <section id="booking-section">
+        <h2 id="choose-stop">Choose stop:</h2>
+        <button id="proceed-button">Proceed</button>
+        <p id="message"></p>
+      </section>
+
+      <section id="calendar-section">
+        <h2>Arrivals</h2>
+        <div id="calendarData"></div>
+      </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
